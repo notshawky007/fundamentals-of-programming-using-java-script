@@ -108,3 +108,41 @@
 //     Uae:'Dubai',
 // };
 // console.log(user);
+
+//exapmle of Object.assign() method
+// let user = {
+//     firstName:'Mostafa',
+//     lastName:'Shawky',
+//     fullName:function(){
+//         return `${this.firstName} ${this.lastName}`;
+//     },
+//     skills:['html','css','js','php','mysql'],
+//     active:false,
+//     phoneNumber:{
+//         first:'0106547687',
+//         second:'0126574687',
+//     },
+//     address:{
+//         Egypt:'Cairo',
+//         Uae:'Dubai',
+//     },
+//     isActive:function(){
+//         if(this.active === true){
+//             return 'you are active';
+//         }
+//         else{
+//             return 'you are not active';
+//         }
+//     },
+//     getAge:function(){
+//         if(this.age >= 18)
+//         {
+//             return 'available';
+//         }
+//         else{
+//             return 'not available';
+//         }
+//     },
+// };
+// let user2 = Object.assign({},user);
+// console.log(user2);
