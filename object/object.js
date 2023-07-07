@@ -91,3 +91,20 @@
 // console.log(user.fullName());
 // console.log(user.isActive());
 // console.log(user.getAge());
+
+//create object use Object.create() method
+// let user = Object.create(null);
+// user.firstName = 'Mostafa';
+// user.lastName = 'Shawky';
+// user.age = 26;
+// user.skills = ['html','css','js','php','mysql'];
+// user.active = false;
+// user.phoneNumber = {
+//     first:'0106547687',
+//     second:'0126574687',
+// };
+// user.address = {
+//     Egypt:'Cairo',
+//     Uae:'Dubai',
+// };
+// console.log(user);
