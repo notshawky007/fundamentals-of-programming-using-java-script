@@ -178,3 +178,19 @@
 // console.log(myDiv.getAttribute('data-lang'));
 // myDiv.removeAttribute('data-lang');
 // console.log(myDiv.getAttribute('data-lang'));
+
+//practice of siblings, children, parent, firstChild, lastChild, firstElementChild, lastElementChild, nextSibling, previousSibling, nextElementSibling, previousElementSibling
+// let myDiv = document.getElementById('myDiv');
+// console.log(myDiv);
+// console.log(myDiv.children);
+// console.log(myDiv.children[0]);
+
+// console.log(myDiv.firstElementChild);
+// console.log(myDiv.lastElementChild);
+// console.log(myDiv.nextElementSibling);
+// console.log(myDiv.previousElementSibling);
+
+// console.log(myDiv.firstChild);
+// console.log(myDiv.lastChild);
+// console.log(myDiv.nextSibling);
+// console.log(myDiv.previousSibling);
