@@ -55,3 +55,17 @@
 // myDiv.innerText = 'Hello World';
 // myDiv.innerHTML = '<h1>Hello World</h1>';
 // myDiv.textContent = 'Hello World';
+
+//practice of css properties using style property
+// let myDiv = document.getElementById('myDiv');
+// myDiv.style.color = 'red';
+// myDiv.style.backgroundColor = 'black';
+// myDiv.style.fontSize = '50px';
+// myDiv.style.padding = '20px';
+// myDiv.style.margin = '20px';
+// myDiv.style.border = '5px solid #000';
+
+//practice of css properties using cssText property
+// let myDiv = document.getElementById('myDiv');
+// myDiv.style.cssText = 'color:red;background-color:black;font-size:50px;padding:20px;margin:20px;border:5px solid #000;';
+// myDiv.style.cssText += 'color:red;background-color:black;font-size:50px;padding:20px;margin:20px;border:5px solid #000;';
