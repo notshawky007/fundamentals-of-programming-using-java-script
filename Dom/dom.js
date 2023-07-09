@@ -69,3 +69,15 @@
 // let myDiv = document.getElementById('myDiv');
 // myDiv.style.cssText = 'color:red;background-color:black;font-size:50px;padding:20px;margin:20px;border:5px solid #000;';
 // myDiv.style.cssText += 'color:red;background-color:black;font-size:50px;padding:20px;margin:20px;border:5px solid #000;';
+
+//practice of create element, create text node, append child, remove child, replace child, insert before, clone node
+// let myDiv = document.getElementById('myDiv');
+// let myElement = document.createElement('h1');
+// let myText = document.createTextNode('Hello World');
+// myElement.appendChild(myText);
+// myDiv.appendChild(myElement);
+// myDiv.removeChild(myElement);
+// myDiv.replaceChild(myElement,myDiv.children[0]);
+// myDiv.insertBefore(myElement,myDiv.children[0]);
+// let myElement2 = myElement.cloneNode(true);
+// myDiv.appendChild(myElement2);
