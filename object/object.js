@@ -146,3 +146,24 @@
 // };
 // let user2 = Object.assign({},user);
 // console.log(user2);
+
+//get elements using id, class, tag name, querySelector, querySelectorAll,images,links,forms,forms elements
+// let myDiv = document.getElementById('myDiv');
+// console.log(myDiv);
+// let myDivs = document.getElementsByClassName('myDiv');
+// console.log(myDivs);
+// let myDivs2 = document.getElementsByTagName('div');
+// console.log(myDivs2);
+// let myDivs3 = document.querySelectorAll('.myDiv');
+// console.log(myDivs3);
+// let myDivs4 = document.querySelector('.myDiv');
+// console.log(myDivs4);
+// let myImages = document.images;
+// console.log(myImages);
+// let myLinks = document.links;
+// console.log(myLinks);
+// let myForms = document.forms;
+// console.log(myForms);
+// let myForm = document.forms[0];
+// console.log(myForm);
+//
