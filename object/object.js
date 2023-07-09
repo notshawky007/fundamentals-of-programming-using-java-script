@@ -166,4 +166,15 @@
 // console.log(myForms);
 // let myForm = document.forms[0];
 // console.log(myForm);
-//
+
+//get element attributes, set element attributes, remove element attributes
+// let myDiv = document.getElementById('myDiv');
+// console.log(myDiv.getAttribute('id'));
+// console.log(myDiv.getAttribute('class'));
+// console.log(myDiv.getAttribute('data-name'));
+// console.log(myDiv.getAttribute('data-job'));
+// console.log(myDiv.getAttribute('data-lang'));
+// myDiv.setAttribute('data-lang','php');
+// console.log(myDiv.getAttribute('data-lang'));
+// myDiv.removeAttribute('data-lang');
+// console.log(myDiv.getAttribute('data-lang'));
