@@ -124,3 +124,12 @@
 // myDiv.classList.remove('text-center');
 // myDiv.classList.toggle('text-center');
 // console.log(myDiv.classList.contains('text-center'));
+
+//practice of auto event focus and blur
+// let myInput = document.getElementById('myInput');
+// myInput.addEventListener('focus',function(){
+//     console.log('focus');
+// })
+// myInput.addEventListener('blur',function(){
+//     console.log('blur');
+// })
