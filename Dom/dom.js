@@ -81,3 +81,21 @@
 // myDiv.insertBefore(myElement,myDiv.children[0]);
 // let myElement2 = myElement.cloneNode(true);
 // myDiv.appendChild(myElement2);
+
+//converter to convert usd to egp and egp to usd
+// let usd = document.getElementById('usd');
+// let egp = document.getElementById('egp');
+// let usdToEgp = document.getElementById('usdToEgp');
+// let egpToUsd = document.getElementById('egpToUsd');
+// usd.addEventListener('input',function(){
+//     egp.value = usd.value * 15.7;
+// })
+// egp.addEventListener('input',function(){
+//     usd.value = egp.value / 15.7;
+// })
+// usdToEgp.addEventListener('click',function(){
+//     egp.value = usd.value * 15.7;
+// })
+// egpToUsd.addEventListener('click',function(){
+//     usd.value = egp.value / 15.7;
+// })
