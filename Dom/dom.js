@@ -99,3 +99,20 @@
 // egpToUsd.addEventListener('click',function(){
 //     usd.value = egp.value / 15.7;
 // })
+
+//practice of after , before, append, prepend, remove, empty, wrap, unwrap, wrapAll, wrapInner, unwrap
+// let myDiv = document.getElementById('myDiv');
+// let myElement = document.createElement('h1');
+// let myText = document.createTextNode('Hello World');
+// myElement.appendChild(myText);
+// myDiv.after(myElement);
+// myDiv.before(myElement);
+// myDiv.append(myElement);
+// myDiv.prepend(myElement);
+// myDiv.remove();
+// myDiv.empty();
+// myDiv.wrap(myElement);
+// myDiv.unwrap();
+// myDiv.wrapAll(myElement);
+// myDiv.wrapInner(myElement);
+// myDiv.unwrap();
