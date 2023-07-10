@@ -116,3 +116,11 @@
 // myDiv.wrapAll(myElement);
 // myDiv.wrapInner(myElement);
 // myDiv.unwrap();
+
+//practice of addClass, removeClass, toggleClass, hasClass
+
+// let myDiv = document.getElementById('myDiv');
+// myDiv.classList.add('text-center');
+// myDiv.classList.remove('text-center');
+// myDiv.classList.toggle('text-center');
+// console.log(myDiv.classList.contains('text-center'));
