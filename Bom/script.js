@@ -58,3 +58,30 @@
 // setTimeout(() => {
 //   clearTimeout(timeoutId);
 // }, 5000);
+
+//practice of localStorage and sessionStorage
+// localStorage.setItem("name", "Mostafa");
+// localStorage.setItem("age", 21);
+// localStorage.setItem("isMarried", true);
+
+// const name = localStorage.getItem("name");
+// const age = localStorage.getItem("age");
+// const isMarried = localStorage.getItem("isMarried");
+
+// console.log(name, age, isMarried);
+
+// localStorage.removeItem("name");
+// localStorage.clear();
+
+// sessionStorage.setItem("name", "Mostafa");
+// sessionStorage.setItem("age", 21);
+// sessionStorage.setItem("isMarried", true);
+
+// const name = sessionStorage.getItem("name");
+// const age = sessionStorage.getItem("age");
+// const isMarried = sessionStorage.getItem("isMarried");
+
+// console.log(name, age, isMarried);
+
+// sessionStorage.removeItem("name");
+// sessionStorage.clear();
