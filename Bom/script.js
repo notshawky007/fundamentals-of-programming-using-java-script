@@ -31,3 +31,30 @@
 // console.log(history);
 // history.back();
 // history.forward();
+
+//practice of navigator
+// const navigator = window.navigator;
+// console.log(navigator);
+// console.log(navigator.userAgent);
+// console.log(navigator.platform);
+
+//practice of setTimeout, setInterval, clearInterval and clearTimeout
+// const timeoutId = setTimeout(() => {
+//   console.log("Hello");
+// }, 2000);
+
+// const intervalId = setInterval(() => {
+//   console.log("Hello");
+// }, 2000);
+
+// setTimeout(() => {
+//   clearInterval(intervalId);
+// }, 5000);
+
+// const timeoutId = setTimeout(() => {
+//   console.log("Hello");
+// }, 2000);
+
+// setTimeout(() => {
+//   clearTimeout(timeoutId);
+// }, 5000);
