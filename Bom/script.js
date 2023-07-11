@@ -19,3 +19,15 @@
 // const width = document.documentElement.clientWidth;
 // const height = document.documentElement.clientHeight;
 // console.log(width, height);
+
+//practice of location,histroy
+// const location = window.location;
+// console.log(location);
+//manipulating the location
+// location.href = "https://www.google.com";
+// location.reload();
+
+// const history = window.history;
+// console.log(history);
+// history.back();
+// history.forward();
